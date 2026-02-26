@@ -1,0 +1,37 @@
+# Build directories
+cmake-build-*/
+build/
+out/
+
+# CLion project files
+.idea/
+*.iml
+*.iws
+*.ipr
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles/
+Makefile
+
+# Compiled object files
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+
+# Executables
+PirateGame
+*.out
+*.app
+
+# Dependency directories
+_deps/
+
+# Debug/profiling files
+*.dSYM/
+*.pdb
+
+# OS generated files
+.DS_Store
+Thumbs.db
