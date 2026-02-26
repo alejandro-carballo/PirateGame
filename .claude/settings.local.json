@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh auth status)",
+      "Bash(git --version)",
+      "Bash(git config --global user.name)",
+      "Bash(git config --global user.email)",
+      "Bash(curl --version)",
+      "Bash(git init)",
+      "Bash(git branch -m main)",
+      "Bash(git add CMakeLists.txt main.cpp .gitignore assets/ \"Design Docs/\")",
+      "Bash(git commit:*)",
+      "Bash(sudo apt-get install -y gh)",
+      "Bash(~/.local/bin/gh auth login --git-protocol https --web)",
+      "Bash(~/.local/bin/gh repo create PirateGame --public --source=. --remote=origin --push)"
+    ]
+  }
+}
